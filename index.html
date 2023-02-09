@@ -6,23 +6,73 @@
 	<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-	<h1 title="To jest tytuł strony">Heading 1</h1>
+	<h1 id="myHeader" title="To jest tytuł strony">Heading 1</h1>
 	<h2>Heading 2</h2><!--To jest komentarz-->
-	<h3 style="color: brown; background-color: bisque">Heading 3</h3>
+	<h3>Heading 3</h3>
 	<h4 style="text-align: center">Heading 4</h4>
-	<h5 style="border:6px solid tomato">Heading 5</h5>
+	<h5>Heading 5</h5>
 	<h6>Heading 6</h6>
-	<p>Normal text & <em>emphasized</em> & <b>bold</b> & <strong>strong</strong> & <mark>marked text</mark> & quotation <blockquote>W nowej siedzibie łódzkiej prokuratury, której remont miał pochłonąć 14 mln zł, jest m.in. Wydział ds. Przestępczości Gospodarczej prokuratury regionalnej. Na otwarciu gmachu pojawił się szef łódzkiej prokuratury regionalnej Jarosław Szubert, prokurator krajowy i pierwszy zastępca prokuratora generalnego Dariusz Barski oraz Beata Matczak, zastępczyni prokuratora generalnego ds. przestępczości zorganizowanej.</blockquote>Nowy akapit po cytacie z <q>krótkim cytatem</q>. A teraz skrót <abbr title="Nort Atlantic Treaty Organization">NATO</abbr>. Teraz tytuł: <cite>Hair</cite>.</p>
+	<p>Normal text & <em>emphasized</em> & <b>bold</b> & <strong>strong</strong> & <mark>marked text</mark> & quotation <blockquote>W nowej siedzibie łódzkiej prokuratury, której remont miał pochłonąć 14 mln zł, jest m.in. Wydział ds. Przestępczości Gospodarczej prokuratury regionalnej. Na otwarciu gmachu pojawił się szef łódzkiej prokuratury regionalnej Jarosław Szubert, prokurator krajowy i pierwszy zastępca prokuratora generalnego Dariusz Barski oraz Beata Matczak, zastępczyni prokuratora generalnego ds. przestępczości zorganizowanej.</blockquote>
+	<p>Nowy akapit po cytacie z <q>krótkim cytatem</q>. A teraz skrót <abbr title="Nort Atlantic Treaty Organization">NATO</abbr>. Teraz tytuł: <cite>Hair</cite>.</p>
 	<p style="color: coral;">To jest tekst w kolorze coral</p>
-	<h2>Adres</h2>
+	<h3>Adres</h3>
 	<address>Łódź<br>ul. Piotrkowska 77</address>
 	<hr style="border-color: coral">
-	<img src="static/learning-icon.png" alt="Learnig icon" width="120" height="120">
-	<a href="page01.html"><br>Link to page 01<br></a>
+	<img src="static/learning-icon.png" alt="Learnig icon" style="width: 252px;height: 252px">
+	<a href="https://www.spotify.com" target="_blank">
+		<img src="static/spotify.png" alt="Logo Spotify" style="width: 252px;height: 252px">
+	</a>
 	<hr style="border-color: coral">
+	<h3>Linki</h3>
+	<a href="https://www.google.com/" target="_blank">Link do googla<br></a>
+	<a href="mailto:mporadecki@gmail.com">Napisz maila do nas</a>
+	<h3>Mapowanie zdjęcia z klikalnymi obszarami</h3>
+	<a href="https://www.w3schools.com/html/html_images_imagemap.asp">Link do tutoriala<br></a>
+	<iframe src="empty.html" name="i_frame_a" style="height: 200px; width: 600px; border-style: none" title="Ta strona" ></iframe>
+	<p><a href="page_test.html" target="i_frame_a">Test Page   </a><a href="page_test2.html" target="i_frame_a">Test Page 2</a></p>
+	<h4>Tabelka</h4>
+	<table>
+		<tr style="height: 30px">
+			<th colspan="2">Zwierz</th>
+			<th>Wiek</th>
+		</tr>
+		<tr>
+			<td>Ala</td>
+			<td>Kot</td>
+			<td>3</td>
+		</tr>
+		<tr>
+			<td>Baltazar</td>
+			<td>Pies</td>
+			<td>7</td>
+		</tr>
+		<tr>
+			<td>Dionizy</td>
+			<td>Papuga</td>
+			<td>13</td>
+		</tr>
+	</table>
+	<div>
+		<h2 id="C1">Test wydzielonego fragmentu</h2>
+		<p>Józef Szwejk (cz. Josef Švejk) – postać fikcyjna, główny bohater antywojennej powieści czeskiego pisarza Jaroslava Haška Przygody dobrego wojaka Szwejka podczas wojny światowej i jej licznych ekranizacji. Szwejk – żołnierz Armii Austro-Węgier – jest symbolem postawy antymilitarnej i antywojennej, niepozornym człowiekiem potrafiącym bronić się przed cesarsko-królewską biurokracją dzięki swemu sprytowi i umiejętności szyderstwa. W postać Józefa Szwejka wcielało się wielu aktorów między innymi Saša Rašilov[1], Rudolf Hrušínský[2], Heinz Rühmann[3], Jerzy Stuhr[4] czy Stanisław Jaworski[5]. W Polsce szczególnym uznaniem cieszy się Szwejk w Przemyślu, gdzie toczy się akcja ostatniego tomu powieści. Funkcjonuje tam Przemyskie Stowarzyszenie Przyjaciół Dobrego Wojaka Szwejka[6], organizujące wycieczki po Twierdzy Przemyśl oraz Manewry Szwejkowskie. W 2006 w mieście powstał Zaułek Wojaka Szwejka, zaś w 2008 ławeczka[7].</p>
+	</div>
+	<div class="uwaga">
+		<h2 id="C2">Klasa „uwaga”</h2>
+		<p>Envoy (opens in new tab), a product that focuses on visitor registration at your office, offers an elegant iPad-based interface for collecting names, capturing signatures and printing visitor badges on the spot. For the website that promotes the app, the "primary goal was to allow our customers to visualise how their own visitors can experience Envoy at their offices," explains co-founder and designer Vítor Lourenço. "We decided an interactive demo would be the most visually engaging way to demonstrate this."</p>
+	</div>
+	
+	<script src="scripts.js">
+	</script>
+	<img id="kura" src="static/kura_lewo.jpg" alt="To jest kura!" style="width: 374px; height: 258px">
+	<p>
+		<button type="button" onclick="kura(1)">Spojrzyj w prawo</button>
+		<button type="button" onclick="kura(0)">Spojrzyj w lewo</button>
+	</p>
+	<a href="#myHeader">Na górę</a>
 	<pre style="font-size: 24pt; font-family: Bahnschrift, sans-serif" title="fragment tekstu z podziałem na linie">Wierszyk
 o Jasiu
 co jadł
 fasolę</pre>
+
 </body>
 </html>
