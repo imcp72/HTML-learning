@@ -1,0 +1,50 @@
+/*Nagłówki*/
+
+h1, h2, h3, h4, h5,h6 {
+    font-family: "Fira Sans", sans-serif;
+    color: navy;
+    background-color: cornflowerblue;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 20px;
+}
+
+/*Teksty*/
+p {
+    font-family: "Fira Sans", sans-serif;
+    background-color: azure;
+    margin: 25px;
+    padding: 20px;
+}
+
+/*Klasy*/
+
+.center {
+    text-align: center;
+}
+.border1 {
+    border-color: antiquewhite red blue green; /*zgodnie z ruchem zegara albo pary*/
+    border-style: solid dotted double groove;
+    border-width: 20px 10px 10px 10px;
+}
+.border2 {
+/*    na skróty*/
+    border: 5px solid grey;
+}
+.border3 {
+    border: 7px solid aqua;
+    border-radius: 14px;
+}
+
+.margin_auto {
+    width: 600px;
+    margin: auto;
+}
+
+.mydiv {
+    background-color: #771616;
+    margin: 50px;
+    padding: 25px;
+}
